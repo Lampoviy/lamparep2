@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="user149_dbModelStoreContainer" CdmEntityContainer="user149_dbEntities">
+    <EntitySetMapping Name="Admin_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Admin_KAFE">
+        <MappingFragment StoreEntitySet="Admin_KAFE">
+          <ScalarProperty Name="id_admin" ColumnName="id_admin" />
+          <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bludo_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Bludo_KAFE">
+        <MappingFragment StoreEntitySet="Bludo_KAFE">
+          <ScalarProperty Name="id_bludo" ColumnName="id_bludo" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="Stoimost" ColumnName="Stoimost" />
+          <ScalarProperty Name="Ves" ColumnName="Ves" />
+          <ScalarProperty Name="Sostav" ColumnName="Sostav" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Role_KAFE">
+        <MappingFragment StoreEntitySet="Role_KAFE">
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Smena_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Smena_KAFE">
+        <MappingFragment StoreEntitySet="Smena_KAFE">
+          <ScalarProperty Name="id_smeni" ColumnName="id_smeni" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Vremya" ColumnName="Vremya" />
+          <ScalarProperty Name="id_admin" ColumnName="id_admin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Status_KAFE">
+        <MappingFragment StoreEntitySet="Status_KAFE">
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stolic_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Stolic_KAFE">
+        <MappingFragment StoreEntitySet="Stolic_KAFE">
+          <ScalarProperty Name="id_stolic" ColumnName="id_stolic" />
+          <ScalarProperty Name="nomer" ColumnName="nomer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.User_KAFE">
+        <MappingFragment StoreEntitySet="User_KAFE">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bludo_Zakaz">
+      <EntityTypeMapping TypeName="user149_dbModel.Bludo_Zakaz">
+        <MappingFragment StoreEntitySet="Bludo_Zakaz">
+          <ScalarProperty Name="id_zakaza" ColumnName="id_zakaza" />
+          <ScalarProperty Name="id_bludo" ColumnName="id_bludo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniki_Smena_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Sotrudniki_Smena_KAFE">
+        <MappingFragment StoreEntitySet="Sotrudniki_Smena_KAFE">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="id_smeni" ColumnName="id_smeni" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status_Zakaz_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Status_Zakaz_KAFE">
+        <MappingFragment StoreEntitySet="Status_Zakaz_KAFE">
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zakaz_KAFE">
+      <EntityTypeMapping TypeName="user149_dbModel.Zakaz_KAFE">
+        <MappingFragment StoreEntitySet="Zakaz_KAFE">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="id_bludo" ColumnName="id_bludo" />
+          <ScalarProperty Name="Vrema" ColumnName="Vrema" />
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="Stoimost" ColumnName="Stoimost" />
+          <ScalarProperty Name="kol_vo_klientov" ColumnName="kol_vo_klientov" />
+          <ScalarProperty Name="id_stolic" ColumnName="id_stolic" />
+          <ScalarProperty Name="id_zakaz" ColumnName="id_zakaz" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

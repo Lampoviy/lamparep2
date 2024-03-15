@@ -1,0 +1,257 @@
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\румка\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+D:\рум\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\рум\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\рум\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\рум\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\рум\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\рум\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\рум\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\рум\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+D:\румка\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\рум\2\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.g.cs
+D:\рум\2\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.baml
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+\\ivan4ik\Hutyaka\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.baml
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\fluffy\Desktop\лапша на ушах\3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.baml
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAddForm.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminAllOrders.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminFireSotr.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\AdminSetSmena.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Oficiant.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\Povar.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\set_smenaForm.baml
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Борис\Desktop\kafe\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete

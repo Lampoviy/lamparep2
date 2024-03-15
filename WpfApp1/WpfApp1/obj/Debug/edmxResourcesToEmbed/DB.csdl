@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user149_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin_KAFE">
+    <Key>
+      <PropertyRef Name="id_admin" />
+    </Key>
+    <Property Name="id_admin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Smena_KAFE" Relationship="Self.FK_Smena_KAFE_Admin_KAFE" FromRole="Admin_KAFE" ToRole="Smena_KAFE" />
+  </EntityType>
+  <EntityType Name="Bludo_KAFE">
+    <Key>
+      <PropertyRef Name="id_bludo" />
+    </Key>
+    <Property Name="id_bludo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Stoimost" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ves" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sostav" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bludo_Zakaz" Relationship="user149_dbModel.FK_Bludo_Zakaz_Bludo_KAFE" FromRole="Bludo_KAFE" ToRole="Bludo_Zakaz" />
+  </EntityType>
+  <EntityType Name="Role_KAFE">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="User_KAFE" Relationship="Self.FK_User_KAFE_Role_KAFE" FromRole="Role_KAFE" ToRole="User_KAFE" />
+  </EntityType>
+  <EntityType Name="Smena_KAFE">
+    <Key>
+      <PropertyRef Name="id_smeni" />
+    </Key>
+    <Property Name="id_smeni" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Precision="0" />
+    <Property Name="Vremya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="id_admin" Type="Int32" />
+    <NavigationProperty Name="Admin_KAFE" Relationship="Self.FK_Smena_KAFE_Admin_KAFE" FromRole="Smena_KAFE" ToRole="Admin_KAFE" />
+    <NavigationProperty Name="Sotrudniki_Smena_KAFE" Relationship="user149_dbModel.FK_Sotrudniki_Smena_KAFE_Smena_KAFE" FromRole="Smena_KAFE" ToRole="Sotrudniki_Smena_KAFE" />
+  </EntityType>
+  <EntityType Name="Status_KAFE">
+    <Key>
+      <PropertyRef Name="id_status" />
+    </Key>
+    <Property Name="id_status" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="User_KAFE" Relationship="Self.FK_User_KAFE_Status_KAFE" FromRole="Status_KAFE" ToRole="User_KAFE" />
+  </EntityType>
+  <EntityType Name="Stolic_KAFE">
+    <Key>
+      <PropertyRef Name="id_stolic" />
+    </Key>
+    <Property Name="id_stolic" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nomer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Zakaz_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_Stolic_KAFE" FromRole="Stolic_KAFE" ToRole="Zakaz_KAFE" />
+  </EntityType>
+  <EntityType Name="User_KAFE">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Role" Type="Int32" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="id_status" Type="Int32" />
+    <NavigationProperty Name="Role_KAFE" Relationship="Self.FK_User_KAFE_Role_KAFE" FromRole="User_KAFE" ToRole="Role_KAFE" />
+    <NavigationProperty Name="Status_KAFE" Relationship="Self.FK_User_KAFE_Status_KAFE" FromRole="User_KAFE" ToRole="Status_KAFE" />
+    <NavigationProperty Name="Sotrudniki_Smena_KAFE" Relationship="user149_dbModel.FK_Sotrudniki_Smena_KAFE_User_KAFE" FromRole="User_KAFE" ToRole="Sotrudniki_Smena_KAFE" />
+    <NavigationProperty Name="Zakaz_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_User_KAFE" FromRole="User_KAFE" ToRole="Zakaz_KAFE" />
+  </EntityType>
+  <Association Name="FK_Smena_KAFE_Admin_KAFE">
+    <End Role="Admin_KAFE" Type="Self.Admin_KAFE" Multiplicity="0..1" />
+    <End Role="Smena_KAFE" Type="Self.Smena_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin_KAFE">
+        <PropertyRef Name="id_admin" />
+      </Principal>
+      <Dependent Role="Smena_KAFE">
+        <PropertyRef Name="id_admin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_KAFE_Role_KAFE">
+    <End Role="Role_KAFE" Type="Self.Role_KAFE" Multiplicity="0..1" />
+    <End Role="User_KAFE" Type="Self.User_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role_KAFE">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="User_KAFE">
+        <PropertyRef Name="Role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_KAFE_Status_KAFE">
+    <End Role="Status_KAFE" Type="Self.Status_KAFE" Multiplicity="0..1" />
+    <End Role="User_KAFE" Type="Self.User_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status_KAFE">
+        <PropertyRef Name="id_status" />
+      </Principal>
+      <Dependent Role="User_KAFE">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user149_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admin_KAFE" EntityType="Self.Admin_KAFE" />
+    <EntitySet Name="Bludo_KAFE" EntityType="Self.Bludo_KAFE" />
+    <EntitySet Name="Role_KAFE" EntityType="Self.Role_KAFE" />
+    <EntitySet Name="Smena_KAFE" EntityType="Self.Smena_KAFE" />
+    <EntitySet Name="Status_KAFE" EntityType="Self.Status_KAFE" />
+    <EntitySet Name="Stolic_KAFE" EntityType="Self.Stolic_KAFE" />
+    <EntitySet Name="User_KAFE" EntityType="Self.User_KAFE" />
+    <AssociationSet Name="FK_Smena_KAFE_Admin_KAFE" Association="Self.FK_Smena_KAFE_Admin_KAFE">
+      <End Role="Admin_KAFE" EntitySet="Admin_KAFE" />
+      <End Role="Smena_KAFE" EntitySet="Smena_KAFE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_KAFE_Role_KAFE" Association="Self.FK_User_KAFE_Role_KAFE">
+      <End Role="Role_KAFE" EntitySet="Role_KAFE" />
+      <End Role="User_KAFE" EntitySet="User_KAFE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_KAFE_Status_KAFE" Association="Self.FK_User_KAFE_Status_KAFE">
+      <End Role="Status_KAFE" EntitySet="Status_KAFE" />
+      <End Role="User_KAFE" EntitySet="User_KAFE" />
+    </AssociationSet>
+    <EntitySet Name="Bludo_Zakaz" EntityType="user149_dbModel.Bludo_Zakaz" />
+    <AssociationSet Name="FK_Bludo_Zakaz_Bludo_KAFE" Association="user149_dbModel.FK_Bludo_Zakaz_Bludo_KAFE">
+      <End Role="Bludo_KAFE" EntitySet="Bludo_KAFE" />
+      <End Role="Bludo_Zakaz" EntitySet="Bludo_Zakaz" />
+    </AssociationSet>
+    <EntitySet Name="Sotrudniki_Smena_KAFE" EntityType="user149_dbModel.Sotrudniki_Smena_KAFE" />
+    <AssociationSet Name="FK_Sotrudniki_Smena_KAFE_Smena_KAFE" Association="user149_dbModel.FK_Sotrudniki_Smena_KAFE_Smena_KAFE">
+      <End Role="Smena_KAFE" EntitySet="Smena_KAFE" />
+      <End Role="Sotrudniki_Smena_KAFE" EntitySet="Sotrudniki_Smena_KAFE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sotrudniki_Smena_KAFE_User_KAFE" Association="user149_dbModel.FK_Sotrudniki_Smena_KAFE_User_KAFE">
+      <End Role="User_KAFE" EntitySet="User_KAFE" />
+      <End Role="Sotrudniki_Smena_KAFE" EntitySet="Sotrudniki_Smena_KAFE" />
+    </AssociationSet>
+    <EntitySet Name="Status_Zakaz_KAFE" EntityType="user149_dbModel.Status_Zakaz_KAFE" />
+    <EntitySet Name="Zakaz_KAFE" EntityType="user149_dbModel.Zakaz_KAFE" />
+    <AssociationSet Name="FK_Bludo_Zakaz_Zakaz_KAFE" Association="user149_dbModel.FK_Bludo_Zakaz_Zakaz_KAFE">
+      <End Role="Zakaz_KAFE" EntitySet="Zakaz_KAFE" />
+      <End Role="Bludo_Zakaz" EntitySet="Bludo_Zakaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakaz_KAFE_Status_Zakaz_KAFE" Association="user149_dbModel.FK_Zakaz_KAFE_Status_Zakaz_KAFE">
+      <End Role="Status_Zakaz_KAFE" EntitySet="Status_Zakaz_KAFE" />
+      <End Role="Zakaz_KAFE" EntitySet="Zakaz_KAFE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakaz_KAFE_Stolic_KAFE" Association="user149_dbModel.FK_Zakaz_KAFE_Stolic_KAFE">
+      <End Role="Stolic_KAFE" EntitySet="Stolic_KAFE" />
+      <End Role="Zakaz_KAFE" EntitySet="Zakaz_KAFE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakaz_KAFE_User_KAFE" Association="user149_dbModel.FK_Zakaz_KAFE_User_KAFE">
+      <End Role="User_KAFE" EntitySet="User_KAFE" />
+      <End Role="Zakaz_KAFE" EntitySet="Zakaz_KAFE" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bludo_Zakaz">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_bludo" Type="Int32" />
+    <Property Name="id_zakaza" Type="Int32" />
+    <NavigationProperty Name="Bludo_KAFE" Relationship="user149_dbModel.FK_Bludo_Zakaz_Bludo_KAFE" FromRole="Bludo_Zakaz" ToRole="Bludo_KAFE" />
+    <NavigationProperty Name="Zakaz_KAFE" Relationship="user149_dbModel.FK_Bludo_Zakaz_Zakaz_KAFE" FromRole="Bludo_Zakaz" ToRole="Zakaz_KAFE" />
+  </EntityType>
+  <Association Name="FK_Bludo_Zakaz_Bludo_KAFE">
+    <End Type="user149_dbModel.Bludo_KAFE" Role="Bludo_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Bludo_Zakaz" Role="Bludo_Zakaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bludo_KAFE">
+        <PropertyRef Name="id_bludo" />
+      </Principal>
+      <Dependent Role="Bludo_Zakaz">
+        <PropertyRef Name="id_bludo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Sotrudniki_Smena_KAFE">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="id_smeni" Type="Int32" />
+    <Property Name="id_user" Type="Int32" />
+    <NavigationProperty Name="Smena_KAFE" Relationship="user149_dbModel.FK_Sotrudniki_Smena_KAFE_Smena_KAFE" FromRole="Sotrudniki_Smena_KAFE" ToRole="Smena_KAFE" />
+    <NavigationProperty Name="User_KAFE" Relationship="user149_dbModel.FK_Sotrudniki_Smena_KAFE_User_KAFE" FromRole="Sotrudniki_Smena_KAFE" ToRole="User_KAFE" />
+  </EntityType>
+  <Association Name="FK_Sotrudniki_Smena_KAFE_Smena_KAFE">
+    <End Type="user149_dbModel.Smena_KAFE" Role="Smena_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Sotrudniki_Smena_KAFE" Role="Sotrudniki_Smena_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Smena_KAFE">
+        <PropertyRef Name="id_smeni" />
+      </Principal>
+      <Dependent Role="Sotrudniki_Smena_KAFE">
+        <PropertyRef Name="id_smeni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sotrudniki_Smena_KAFE_User_KAFE">
+    <End Type="user149_dbModel.User_KAFE" Role="User_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Sotrudniki_Smena_KAFE" Role="Sotrudniki_Smena_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User_KAFE">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Sotrudniki_Smena_KAFE">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Status_Zakaz_KAFE">
+    <Key>
+      <PropertyRef Name="id_status" />
+    </Key>
+    <Property Name="id_status" Type="Int32" Nullable="false" />
+    <Property Name="Nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Zakaz_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_Status_Zakaz_KAFE" FromRole="Status_Zakaz_KAFE" ToRole="Zakaz_KAFE" />
+  </EntityType>
+  <EntityType Name="Zakaz_KAFE">
+    <Key>
+      <PropertyRef Name="id_zakaz" />
+    </Key>
+    <Property Name="id_zakaz" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_stolic" Type="Int32" />
+    <Property Name="kol_vo_klientov" Type="Int32" />
+    <Property Name="Stoimost" Type="Int32" />
+    <Property Name="id_status" Type="Int32" />
+    <Property Name="Vrema" Type="DateTime" Precision="3" />
+    <Property Name="id_bludo" Type="Int32" />
+    <Property Name="id_user" Type="Int32" />
+    <NavigationProperty Name="Bludo_Zakaz" Relationship="user149_dbModel.FK_Bludo_Zakaz_Zakaz_KAFE" FromRole="Zakaz_KAFE" ToRole="Bludo_Zakaz" />
+    <NavigationProperty Name="Status_Zakaz_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_Status_Zakaz_KAFE" FromRole="Zakaz_KAFE" ToRole="Status_Zakaz_KAFE" />
+    <NavigationProperty Name="Stolic_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_Stolic_KAFE" FromRole="Zakaz_KAFE" ToRole="Stolic_KAFE" />
+    <NavigationProperty Name="User_KAFE" Relationship="user149_dbModel.FK_Zakaz_KAFE_User_KAFE" FromRole="Zakaz_KAFE" ToRole="User_KAFE" />
+  </EntityType>
+  <Association Name="FK_Bludo_Zakaz_Zakaz_KAFE">
+    <End Type="user149_dbModel.Zakaz_KAFE" Role="Zakaz_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Bludo_Zakaz" Role="Bludo_Zakaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zakaz_KAFE">
+        <PropertyRef Name="id_zakaz" />
+      </Principal>
+      <Dependent Role="Bludo_Zakaz">
+        <PropertyRef Name="id_zakaza" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakaz_KAFE_Status_Zakaz_KAFE">
+    <End Type="user149_dbModel.Status_Zakaz_KAFE" Role="Status_Zakaz_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Zakaz_KAFE" Role="Zakaz_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status_Zakaz_KAFE">
+        <PropertyRef Name="id_status" />
+      </Principal>
+      <Dependent Role="Zakaz_KAFE">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakaz_KAFE_Stolic_KAFE">
+    <End Type="user149_dbModel.Stolic_KAFE" Role="Stolic_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Zakaz_KAFE" Role="Zakaz_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stolic_KAFE">
+        <PropertyRef Name="id_stolic" />
+      </Principal>
+      <Dependent Role="Zakaz_KAFE">
+        <PropertyRef Name="id_stolic" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakaz_KAFE_User_KAFE">
+    <End Type="user149_dbModel.User_KAFE" Role="User_KAFE" Multiplicity="0..1" />
+    <End Type="user149_dbModel.Zakaz_KAFE" Role="Zakaz_KAFE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User_KAFE">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Zakaz_KAFE">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Admin" Height="230" Width="220">
+    <Grid>
+        <Button x:Name="add_newUser" Content="Добавить нового пользователя" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Width="186" Height="27" Click="add_newUser_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,12,0,0" TextWrapping="Wrap" Text="Меню Админа" VerticalAlignment="Top" Width="124" FontSize="18"/>
+        <Button x:Name="FireWorker" Content="Увольнение работников" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Width="186" Height="27" Click="FireWorker_Click"/>
+        <Button x:Name="SetSmena" Content="Назначить смену" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Width="186" Height="27" Click="SetSmena_Click"/>
+        <Button x:Name="ShowAllOrders" Content="Все заказы" HorizontalAlignment="Center" Margin="0,157,0,0" VerticalAlignment="Top" Width="186" Height="27" Click="showAllOrders"/>
+    </Grid>
+</Window>

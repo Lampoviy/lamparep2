@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.AdminFireSotr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AdminFireSotr" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="id_fire_txt" HorizontalAlignment="Left" Margin="50,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="id_fire_txt_PreviewTextInput"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,381,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top"/>
+        <Button x:Name="fire_but" Content="Уволить" HorizontalAlignment="Left" Margin="191,378,0,0" VerticalAlignment="Top" Width="61" Height="22" Click="fire_but_Click"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Margin="388,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="search_txt_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="294,381,0,0" TextWrapping="Wrap" Text="Поиск по ФИО" VerticalAlignment="Top"/>
+        <DataGrid x:Name="sotr_datagrid" Margin="0,0,0,52" AutoGenerateColumns="False">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id_user}" Header="ID" Width="0.5*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Familiya}" Header="Фамилия" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Imya}" Header="Имя" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Otchestvo}" Header="Отчество" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Role}" Header="Роль" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Telephone}" Header="Телефон" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Login}" Header="Логин" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Password}" Header="Пароль" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Status_KAFE.Status}" Header="Статус" Width="1*"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</Window>

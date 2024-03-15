@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bcc149eae3ee450ba950b72f6fe337b1" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="user149_dbModel.Admin_KAFE" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.Bludo_KAFE" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.Role_KAFE" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.Smena_KAFE" Width="1.5" PointX="8" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.Status_KAFE" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.Stolic_KAFE" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user149_dbModel.User_KAFE" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="user149_dbModel.FK_Smena_KAFE_Admin_KAFE" ManuallyRouted="false" />
+        <AssociationConnector Association="user149_dbModel.FK_User_KAFE_Role_KAFE" ManuallyRouted="false" />
+        <AssociationConnector Association="user149_dbModel.FK_User_KAFE_Status_KAFE" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="user149_dbModel.Bludo_Zakaz" Width="1.5" PointX="10" PointY="1.5" />
+        <AssociationConnector Association="user149_dbModel.FK_Bludo_Zakaz_Bludo_KAFE" />
+        <EntityTypeShape EntityType="user149_dbModel.Sotrudniki_Smena_KAFE" Width="1.5" PointX="8" PointY="4" />
+        <AssociationConnector Association="user149_dbModel.FK_Sotrudniki_Smena_KAFE_Smena_KAFE" />
+        <AssociationConnector Association="user149_dbModel.FK_Sotrudniki_Smena_KAFE_User_KAFE" />
+        <EntityTypeShape EntityType="user149_dbModel.Status_Zakaz_KAFE" Width="1.5" PointX="3" PointY="8.5" />
+        <EntityTypeShape EntityType="user149_dbModel.Zakaz_KAFE" Width="1.5" PointX="5.25" PointY="1.625" />
+        <AssociationConnector Association="user149_dbModel.FK_Bludo_Zakaz_Zakaz_KAFE" />
+        <AssociationConnector Association="user149_dbModel.FK_Zakaz_KAFE_Status_Zakaz_KAFE" />
+        <AssociationConnector Association="user149_dbModel.FK_Zakaz_KAFE_Stolic_KAFE" />
+        <AssociationConnector Association="user149_dbModel.FK_Zakaz_KAFE_User_KAFE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
